@@ -17,7 +17,7 @@
 </main>
 <footer>
 	<p>Made by Espen Berget</p>
-	<a href="https://github.com/EspenBerget/" target="_blank"><i class="fab fa-github"></i> source for this page</a>
+	<a href="https://github.com/EspenBerget/portfolio" target="_blank"><i class="fab fa-github"></i> source for this page</a>
 </footer>
 
 <style>
