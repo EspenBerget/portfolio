@@ -18,7 +18,7 @@
          </p>
       </div>
       <div class="question">
-         <h1>How long have you been a web developer</h1>
+         <h1>How long have you been a web developer?</h1>
          <p>I been programming for 7+ years now, but never found my place. The first things I made was websites in pure HTML/CSS. So going back to 
             web development is full circle for me. In those 7 years I've tried everything, or so it feels. From functional with Haskell to logical with Prolog,
             aswell as Elixir, Clojure, Go, Java, etc... These days I'm happy with regular JavaScript. 
