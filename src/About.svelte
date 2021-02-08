@@ -3,7 +3,7 @@
       <img src="/images/profile" alt="Espen Berget profile" />
       <p>
          I'm a mostly self-taugh web developer from Oslo, Norway with a broad interests in programming. Web development fits me because it contains a wide array of
-         capabilities. I'm interested in music so WebAudio intrigues me, I like to make some games to test my skills so canvas, CSS Animations & WebGL/WebGPU appeals. 
+         capabilities. I'm interested in music, so WebAudio intrigues me. I like to make some games, so canvas, CSS Animations & WebGL/WebGPU appeals. 
          I've think exploring data is fun and so D3.js is engaging. The prosess of programming and seeing the product take shape before your eyes is incredibly rewarding. Lastly, witnessing the lessons you learn about
          HTML, CSS, and JS in the last project being used and improved in the next is thrilling!
       </p>
@@ -11,14 +11,14 @@
    <section id="questions">
       <div class="question">
          <h1>Why web development?</h1>
-         <p>The web offers a uniq mix of reach and flexibility. You could make your ovn DAW using webaudio, then move on to game development using WebGL,
-            and perhaps but you design skills to the test and make a nice landing page for the products you made. All of these could run on any modern
+         <p>The web offers a uniq mix of reach and flexibility. You could make your own DAW using WebAudio, then move on to game development using WebGL,
+            and perhaps put you design skills to the test and make a nice landing page for the products you made. All of these could run on any modern
             device, given that you followed good practises. This is to tempting to say no to. Also if you get sick og JavaScript, there are a bunch of
-            compile to JS languages out there, and also webassembly, so it seems that everyone wants a pice of the web, better learn it!  
+            compile to JS languages out there, aswell as WebAssembly. It seems that everyone wants a pice of the web, better learn it!  
          </p>
       </div>
       <div class="question">
-         <h1>How long have you been a web developer?</h1>
+         <h1>How long have you been a developer?</h1>
          <p>I been programming for 7+ years now, but never found my place. The first things I made was websites in pure HTML/CSS. So going back to 
             web development is full circle for me. In those 7 years I've tried everything, or so it feels. From functional with Haskell to logical with Prolog,
             aswell as Elixir, Clojure, Go, Java, etc... These days I'm happy with regular JavaScript. 
@@ -40,14 +40,6 @@
       </div>
    </section>
    <section id="info">
-      <div>
-         <h1>Interests</h1>
-         <ul>
-            <li>Programming</li>
-            <li>Playing Guitar</li>
-            <li>Video games</li>
-         </ul>
-      </div>
       <div>
          <h1>Languages</h1>
          <ul>
@@ -125,6 +117,11 @@
    #info {
       display: flex;
       justify-content: space-evenly;
+      border: 3px dotted rgb(206, 205, 205);
+      border-radius: 10px;
+      max-width: 500px;
+      min-width: 400px;
+      align-self: center;
    }
 
    #info h1 {
