@@ -14,9 +14,11 @@
 
 </script>
 <articel id="projects">
-    {#each projects as project}
-    <Project href={project.href} src={project.src} alt={project.alt} name={project.name} extref={project.extref} />
-    {/each}
+    <div>
+        {#each projects as project}
+        <Project href={project.href} src={project.src} alt={project.alt} name={project.name} extref={project.extref} />
+        {/each}
+    </div>
 </articel>
 <style>
     #projects {
@@ -25,10 +27,17 @@
         background-color: rgb(213, 213, 213);
 
         display: flex;
+        justify-content: center;
+    }
+    div {
+        display: flex;
         justify-content: space-evenly;
         align-items: center;
 
         flex-wrap: wrap;
 
+        max-width: 1500px;
     }
+
+
 </style>

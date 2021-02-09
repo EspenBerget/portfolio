@@ -85,7 +85,6 @@
    .question {
       width: 50%;
       max-width: 600px;
-      margin-top: 2rem;
       margin-bottom: 2rem;
       border-radius: 5px;
       padding: 0.7rem;
