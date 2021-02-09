@@ -84,18 +84,24 @@
 
    .question {
       width: 50%;
+      max-width: 600px;
       margin-top: 2rem;
       margin-bottom: 2rem;
-      margin-left: 4rem;
-      margin-right: 4rem;
       border-radius: 5px;
       padding: 0.7rem;
       background-color: rgb(206, 205, 205);
       color: rgb(36, 36, 36);
+      align-self: center;
+      position: relative;
    }
 
    .question:nth-child(even) {
-      align-self: flex-end;
+      right: 200px;
+      margin-left: 2rem;
+   }
+   .question:nth-child(odd) {
+      left: 200px;
+      margin-right: 2rem;
    }
 
    #me {
@@ -149,10 +155,9 @@
 
       .question {
          width: 75%;
-      }
-
-      .question:nth-child(even) {
-         align-self: center;
+         position: static;
+         margin-left: 0 !important;
+         margin-right: 0 !important;
       }
 
       #info {
