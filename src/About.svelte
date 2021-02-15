@@ -65,7 +65,8 @@
 </article>
 <style>
    #about {
-      padding: 1rem;
+      padding: 0;
+      padding-bottom: 1rem;
       padding-top: 2.5rem;
       height: auto;
       display: flex;
@@ -76,7 +77,6 @@
    } 
 
    #questions {
-      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -150,6 +150,8 @@
 
       #questions {
          align-items: center;
+         margin: 0;
+         padding: 0;
       }
 
       .question {
@@ -163,6 +165,7 @@
          flex-direction: column;
          align-items: center;
          border: none;
+         min-width: 0;
       }
    }
 
