@@ -162,6 +162,7 @@
       #info {
          flex-direction: column;
          align-items: center;
+         border: none;
       }
    }
 
