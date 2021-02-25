@@ -4,6 +4,7 @@
     let projects = [
         {name:"Snake",href:"https://canvassnake.netlify.app",src:"/images/snake",alt:"A snake game webpage", extref:"https://github.com/EspenBerget/snake"},
 	{name:"Reader",href:"https://noeyemovement-reader.netlify.app/", src:"/images/reader", alt:"A no eye movement reader", extref:"https://github.com/EspenBerget/reader"},
+	{name:"Quiz",href:"https://inspiring-haibt-e07661.netlify.app/",src:"/images/quiz",alt:"A quiz written with react",extref:"https://github.com/EspenBerget/quiz"},
         {name:"Game of Life",href:"https://life-react.netlify.app/",src:"/images/gol",alt:"A game of life celluar automata",extref:"https://github.com/EspenBerget/gameoflife"},
         {name:"Guessjs",href:"https://guessjs.netlify.app/",src:"/images/guess",alt:"Find two equal cells", extref:"https://github.com/EspenBerget/guessjs"},
         {name:"Star Wars",href:"https://anewhopeintro.netlify.app/",src:"/images/starwars",alt:"star wars text scrolling on the screen", extref:"https://github.com/EspenBerget/starwars"},
