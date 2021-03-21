@@ -2,6 +2,7 @@
     import Project from './Project.svelte';
 
     let projects = [
+	{name:"Todo",href:"https://basic-todo-reminder.netlify.app/",src:"/images/todo",alt:"A Todo reminder site", extref:"https://github.com/EspenBerget/todo"},
         {name:"Snake",href:"https://canvassnake.netlify.app",src:"/images/snake",alt:"A snake game webpage", extref:"https://github.com/EspenBerget/snake"},
 	{name:"Reader",href:"https://noeyemovement-reader.netlify.app/", src:"/images/reader", alt:"A no eye movement reader", extref:"https://github.com/EspenBerget/reader"},
 	{name:"Quiz",href:"https://inspiring-haibt-e07661.netlify.app/",src:"/images/quiz",alt:"A quiz written with react",extref:"https://github.com/EspenBerget/quiz"},
